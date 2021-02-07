@@ -1,0 +1,67 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+ .main{
+      display: flex;
+      justify-content: center; 
+       align-items: center; 
+       height: 100vh;
+      
+     background: linear-gradient(to top right,#65dfc9,#6cdbeb);
+      
+  }   
+  .form{
+  width:300px;
+  height:400px;
+      background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.5), rgba(255,255,255,0.3));
+      backdrop-filter:blur(2rem) ;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  }
+ .elements{
+     padding-top: 2rem;
+ }
+ .elements input{
+     width: 260px;
+     height: 25px;
+     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.5), rgba(255,255,255,0.3));
+     outline: none;
+     border:none;
+     font-family: 'Concert One', cursive;
+     padding-left: 10px;
+ }
+ .msg{
+     height: 100px;
+     width: 260px;
+     font-family: 'Concert One', cursive;
+     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.5), rgba(255,255,255,0.3));
+     border-color: grey;
+     border:none;
+     outline: none;
+     padding-left: 10px;
+ }
+ .btn{
+    position: relative;
+    left: 5.5rem;
+    top: 10px;
+
+ }
+ .btn button{
+     padding: 3px;
+     width:5rem;
+     outline: none;
+    color: linear-gradient(to top right,#65dfc9,#6cdbeb);
+     cursor: pointer;
+     border: none;
+     background: linear-gradient(to top right,#65dfc9,#6cdbeb);
+     font-family: 'Concert One', cursive;
+ }
+ h2{
+     margin-top: 30px;
+     font-family: 'Concert One', cursive;
+     color: grey;
+ }
