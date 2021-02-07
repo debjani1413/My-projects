@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main{
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+   background: linear-gradient(to top right,#65dfc9,#6cdbeb);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.glass{
+    height: 30rem;
+    background-color: white;
+    width: 50rem;
+    border-radius: 25px;
+
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.5), rgba(255,255,255,0.1));
+    backdrop-filter: blur(2rem);
+    z-index:2;
+    display: grid;
+    grid-template-columns: 13rem auto;
+}
+
+.circle1{
+    background-color: white;
+    height: 11rem;
+    width: 11rem;
+    position: absolute;
+    top:70%;
+    left: 15%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255,255,255,0.1));
+    border-radius: 50%;
+    
+}
+
+.circle2{
+    background-color: white;
+    height: 11rem;
+    width: 11rem;
+    position: absolute;
+    top:4%;
+    left:70%;
+    border-radius: 50%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255,255,255,0.1));
+   
+}
+
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:30rem;
+    background-color: white;
+    border-radius: 25px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255,255,255,0.3));
+}
+
+ .links{ 
+    /* margin: 20px; */
+    padding-top: 25px;
+    position: relative;
+    right: 10px;
+    
+} 
+
+span{
+    position: relative;
+    bottom: 10px; 
+    font-size: 15px;
+    color: rgb(101, 102, 98);
+    font-weight: bold;
+    padding: 10px;
+}
+
+.link1,.link2,.link3,.link4{
+    padding: 10px 0px 0px 10px;
+}
+.header{
+   margin-top: 30px;
+}
+
+.header h3{
+    position: relative;
+    top:2%;
+    right:15%;
+    font-size: 15px;
+    color: rgb(79, 80, 76);
+}
+.header p{
+    position: relative;
+    right: 5%;
+    top:5%;
+    color: grey;
+    font-size: 11px;
+}
+.pro{
+    background: linear-gradient(to top right,#65dfc9,#6cdbeb);
+    height:5rem;
+    width: 10rem;
+    border-radius: 20px;
+    margin-top: 15%;
+}
+
+.pro h3{
+    width: 50%;
+    padding: 10px 0px 0px 10px ;
+    font-size: 15px;
+    color: rgb(252, 245, 222);
+    line-height: 20px;
+}
+.pro img{
+    position: relative;
+    top: -80px;
+left: 40%;
+}
+.dash{
+   
+    border-top-right-radius: 25px ;
+    border-bottom-right-radius: 25px;
+    
+}
+.header2{
+   margin-top: 60px;
+   margin-left: 5rem;
+}
+.header2 h2{
+    font-weight: bold;
+    color: rgb(133, 133, 133);
+}
+input{
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.3)
+      );
+      border-style: none;
+      width: 12rem;
+      outline: none;
+      border-radius: 8px;
+}
+.games{
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 10px;
+    width: 28rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 5rem;
+}
+.cards img{
+    padding-left: 10px;
+}
+.information{
+   padding-left: 30px;
+}
+.information h2{
+    font-size: 15px;
+    color: rgb(133, 133, 133);
+    margin-top: 18px;
+    line-height: 22px;
+}
+.percentage{
+  position: relative;
+  left:18rem;
+  top: -50px;
+  
+}
+.information p{
+    font-size: 13px;
+    color: lightslategray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Progress{
+    background: linear-gradient(to top right,#65dfc9,#6cdbeb);
+    width: 8rem;
+    height:12px;
+    border-radius: 8px;
+    margin-top: 5px;
+} 
